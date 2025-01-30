@@ -7,10 +7,8 @@ export default function HomeScreen() {
       style={style.container}
     >
       <Text>Home</Text>
-      <Link href='/details' style={{
-        color: 'blue',
-        textDecorationLine: 'underline',
-      }}>View details</Link>
+      <Link href="/details/1">View first user details</Link>
+      <Link href="/details/2">View second user details</Link>
     </View>
   );
 }
